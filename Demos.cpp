@@ -4,12 +4,12 @@
 using namespace std;
 
 void DemoAritmetica(){
-    int a = 10;
-    int b = 3;
+    int x = 10;
+    int y = 3;
 
-    cout << "SumaF: " << suma(a, b) << endl;
-    cout << "RestaF: " << resta(a, b) << endl;
-    cout << "MultiplicaciónF: " << multiplicacion(a, b) << endl;
-    cout << "DivisiónF: " << division(a, b) << endl;
-    cout << "MóduloF: " << modulo(a, b) << endl;
+    cout << "SumaF: " << suma(x, y) << endl;
+    cout << "RestaF: " << resta(x, y) << endl;
+    cout << "MultiplicaciónF: " << multiplicacion(x, y) << endl;
+    cout << "DivisiónF: " << division(x, y) << endl;
+    cout << "MóduloF: " << modulo(x, y) << endl;
 }
