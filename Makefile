@@ -1,17 +1,18 @@
 CXX      := g++
 CXXFLAGS := -std=c++23
-TARGET   := main
+TARGET   := main.exe
 SRCS     := main.cpp Demos.cpp aritmetica.cpp
+HEADERS  := Demos.h aritmetica.h
 
 .PHONY: all run clean
 
 all: $(TARGET)
 
-$(TARGET): $(SRCS)
-	$(CXX) $(CXXFLAGS) $(SRCS) -o $(TARGET)
+$(TARGET): $(SRCS) $(HEADERS)
+	$(CXX) $(CXXFLAGS) $(SRCS) -o $@
 
 run: all
 	./$(TARGET)
 
 clean:
-	rm -f $(TARGET)
+	$(RM) $(TARGET)
