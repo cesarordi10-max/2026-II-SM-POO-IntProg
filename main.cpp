@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Demos.h"
 using namespace std;
 
 // Compilar: make
@@ -6,5 +7,6 @@ using namespace std;
 
 int main() {
     cout << "Hello, World with Makefile!" << endl;
+    DemoAritmetica();
     return 0;
 }

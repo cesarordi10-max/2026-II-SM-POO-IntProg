@@ -1,7 +1,7 @@
 CXX      := g++
 CXXFLAGS := -std=c++23
 TARGET   := main
-SRCS     := main.cpp
+SRCS     := main.cpp Demos.cpp aritmetica.cpp
 
 .PHONY: all run clean
 
