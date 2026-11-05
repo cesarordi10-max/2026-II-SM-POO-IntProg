@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// g++ -std=c++23 main.cpp -o main
+// Compilar: make
+// Correr: ./main
+
 int main() {
-    cout << "Hello, World!" << endl;
+    cout << "Hello, World with Makefile!" << endl;
     return 0;
 }
