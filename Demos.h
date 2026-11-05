@@ -1,1 +1,2 @@
-void DemoAritmetica();
+// Declaracion del prototipo
+void DemoFuncionesMatematicas();

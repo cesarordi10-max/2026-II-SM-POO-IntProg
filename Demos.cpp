@@ -3,7 +3,8 @@
 #include "aritmetica.h"
 using namespace std;
 
-void DemoAritmetica(){
+// Implementacion
+void DemoFuncionesMatematicas(){
     int x = 10;
     int y = 3;
 

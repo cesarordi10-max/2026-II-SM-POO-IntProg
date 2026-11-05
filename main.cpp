@@ -7,6 +7,6 @@ using namespace std;
 
 int main() {
     cout << "Hello, World with Makefile!" << endl;
-    DemoAritmetica();
+    DemoFuncionesMatematicas();
     return 0;
 }
